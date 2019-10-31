@@ -1,0 +1,14 @@
+name: Deploy to production 
+
+on: 
+  push:
+    tags-ignore:
+      - '**'
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production 
+        run: npx now --prod --token=${{ secrets.ZEIT_TOKEN }}
