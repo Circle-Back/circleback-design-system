@@ -1,1 +1,1 @@
-export * from "./components/RoundedButton";
+export * from "./components";
