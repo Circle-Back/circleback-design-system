@@ -1,27 +1,29 @@
-name: Deploy to production 
+name: Deploy to production
 
-on: 
+on:
   push:
     tags-ignore:
-      - '**'
+      - "**"
     branches:
       - master
 jobs:
   deploy:
-    if: contains(github.event.head_commit.message, 'skip ci') == false 
+    if: contains(github.event.head_commit.message, 'skip ci') == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Setup Node.js 
+      - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 12
       - name: Install dependencies
         run: npm ci
-      - name: Semantic release 
+      - name: Build app
+        run: npm run build
+      - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
-      - name: Deploy to production 
+      - name: Deploy to production
         run: npx now --prod --token=${{ secrets.ZEIT_TOKEN }}
