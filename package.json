@@ -1,7 +1,10 @@
 {
   "name": "circleback-design-system",
+  "description": "Circleback design system",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "https://github.com/amalv/circleback-design-system.git",
   "dependencies": {
     "@types/jest": "24.0.21",
     "@types/node": "12.12.3",
@@ -16,7 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "build-storybook -o build ",
+    "build": "build-storybook -o build && npm run build-package",
+    "build-package": "BABEL_ENV=production babel src --extensions \".ts,.tsx\" -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
@@ -38,6 +42,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
     "@storybook/addon-actions": "^5.2.5",
     "@storybook/addon-info": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
@@ -45,5 +52,13 @@
     "@storybook/react": "^5.2.5",
     "prettier": "^1.18.2",
     "react-docgen-typescript-loader": "^3.3.0"
-  }
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ]
 }
