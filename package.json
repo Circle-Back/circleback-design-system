@@ -3,6 +3,9 @@
   "description": "Circleback design system",
   "version": "0.1.0",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "repository": "https://github.com/amalv/circleback-design-system.git",
   "dependencies": {
@@ -58,12 +61,7 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/github",
-    [
-      "@semantic-release/npm",
-      {
-        "pkgRoot": "dist"
-      }
-    ],
+    "@semantic-release/npm",
     "@semantic-release/git"
   ]
 }
