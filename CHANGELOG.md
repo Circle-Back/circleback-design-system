@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/amalv/circleback-design-system/compare/v1.1.1...v1.2.0) (2019-11-04)
+
+
+### Features
+
+* add sign in buttons ([e5ad5b3](https://github.com/amalv/circleback-design-system/commit/e5ad5b3d1af517dd239014e240fd87b4ff120f08))
+
 ## [1.1.1](https://github.com/amalv/circleback-design-system/compare/v1.1.0...v1.1.1) (2019-11-04)
 
 
