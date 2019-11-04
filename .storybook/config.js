@@ -1,3 +1,8 @@
+import { muiTheme } from "storybook-addon-material-ui";
 import { configure } from "@storybook/react";
+import { addDecorator } from "@storybook/react";
+import theme from "../src/MuiTheme";
 
-configure(require.context('../src/', true, /\.stories\.tsx$/), module);
+addDecorator(muiTheme(theme));
+
+configure(require.context("../src/", true, /\.stories\.tsx$/), module);
