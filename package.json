@@ -24,7 +24,7 @@
   },
   "scripts": {
     "prettier:check": "prettier --check 'src/**/*.{ts,tsx}'",
-    "lint": "eslint './src/**/*' --ext .ts,tsx --fix",
+    "eslint": "eslint './src/**/*' --ext .ts,tsx --fix",
     "start": "react-scripts start",
     "build": "build-storybook -o build && npm run build-package",
     "build-package": "BABEL_ENV=production babel src --extensions \".ts,.tsx\" -d dist",
@@ -67,6 +67,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
     "react-docgen-typescript-loader": "^3.3.0",
     "tslint-config-prettier": "^1.18.0",
@@ -79,5 +81,16 @@
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
