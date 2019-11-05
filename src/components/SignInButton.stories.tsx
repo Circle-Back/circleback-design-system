@@ -1,5 +1,5 @@
 import React from "react";
-import SignInButton from "./SignInButton";
+import { SignInButton } from "./SignInButton";
 import { FacebookIcon, GoogleIcon, EmailIcon } from "./SignIn.styles";
 
 export default {

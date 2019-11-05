@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { ColorProperty } from "csstype";
 
 export interface RoundedButtonProps {
@@ -8,7 +8,7 @@ export interface RoundedButtonProps {
   children: React.ReactNode;
 }
 
-const RoundedButton: React.FC<RoundedButtonProps> = ({
+export const RoundedButton: React.FC<RoundedButtonProps> = ({
   color,
   children,
   onClick,
@@ -32,5 +32,3 @@ const RoundedButton: React.FC<RoundedButtonProps> = ({
     {children}
   </button>
 );
-
-export default RoundedButton;

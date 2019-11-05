@@ -9,7 +9,7 @@ export interface SignInButtonProps {
   children: React.ReactNode;
 }
 
-const SignInButton: React.FC<SignInButtonProps> = ({
+export const SignInButton: React.FC<SignInButtonProps> = ({
   borderColor,
   icon,
   children,
@@ -27,5 +27,3 @@ const SignInButton: React.FC<SignInButtonProps> = ({
     </BaseButton>
   </StylesProvider>
 );
-
-export default SignInButton;
