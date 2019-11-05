@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/amalv/circleback-design-system/compare/v1.2.1...v1.2.2) (2019-11-05)
+
+
+### Bug Fixes
+
+* fix naming for SVGs in SignIn styles component ([#19](https://github.com/amalv/circleback-design-system/issues/19)) ([e6bb5f2](https://github.com/amalv/circleback-design-system/commit/e6bb5f2567bb271740cb90ea98fc3ac7022d7ec4))
+
 ## [1.2.1](https://github.com/amalv/circleback-design-system/compare/v1.2.0...v1.2.1) (2019-11-05)
 
 
