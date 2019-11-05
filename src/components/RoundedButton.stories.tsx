@@ -1,6 +1,6 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
-import RoundedButton from "./RoundedButton";
+import { RoundedButton } from "./RoundedButton";
 
 export default { title: "Rounded Button" };
 

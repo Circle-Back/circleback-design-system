@@ -19,6 +19,7 @@ module.exports = {
       2,
       { devDependencies: ["**/test.tsx", "**/test.ts"] },
     ],
+    "import/prefer-default-export": "off",
     "@typescript-eslint/indent": [2, 2],
     quotes: ["error", "double"],
   },
