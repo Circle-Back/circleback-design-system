@@ -2,8 +2,8 @@ import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
-import facebook from "./shared/svgs/facebook.svg";
-import google from "./shared/svgs/google.svg";
+import FacebookSvg from "./shared/svgs/facebook.svg";
+import GoogleSvg from "./shared/svgs/google.svg";
 import EmailSvg from "./shared/svgs/email.svg";
 
 export interface BaseButtonProps {
@@ -23,7 +23,7 @@ const EmailIcon = styled.div`
 const FacebookIcon = styled.div`
   width: 24px;
   height: 24px;
-  background-image: url(${facebook});
+  background-image: url(${FacebookSvg});
   background-repeat: no-repeat;
   background-position: center;
 `;
@@ -31,7 +31,7 @@ const FacebookIcon = styled.div`
 const GoogleIcon = styled.div`
   width: 24px;
   height: 24px;
-  background-image: url(${google});
+  background-image: url(${GoogleSvg});
   background-size: cover;
 `;
 
