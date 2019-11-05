@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/amalv/circleback-design-system/compare/v1.2.4...v1.2.5) (2019-11-05)
+
+
+### Bug Fixes
+
+* add babel plugin file loader ([b9d38dc](https://github.com/amalv/circleback-design-system/commit/b9d38dcafabcd2b5d33627e1653bc063f9751018))
+
 ## [1.2.4](https://github.com/amalv/circleback-design-system/compare/v1.2.3...v1.2.4) (2019-11-05)
 
 
