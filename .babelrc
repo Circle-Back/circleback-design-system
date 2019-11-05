@@ -1,12 +1,9 @@
 {
-    "presets": [
-    "@babel/env", 
-    "@babel/typescript",
-    "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-object-rest-spread", 
-      "@babel/transform-runtime",
-      "@babel/plugin-transform-modules-commonjs"
-    ]
+  "presets": ["@babel/env", "@babel/typescript", "@babel/preset-react"],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/transform-runtime",
+    "@babel/plugin-transform-modules-commonjs",
+    "file-loader"
+  ]
 }
