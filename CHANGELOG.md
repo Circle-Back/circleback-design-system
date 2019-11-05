@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/amalv/circleback-design-system/compare/v1.2.0...v1.2.1) (2019-11-05)
+
+
+### Bug Fixes
+
+* **build:** update build script ([056f48f](https://github.com/amalv/circleback-design-system/commit/056f48fe5d4dee7f85b67fd5b10a09a7fa57f8cb))
+
 # [1.2.0](https://github.com/amalv/circleback-design-system/compare/v1.1.1...v1.2.0) (2019-11-04)
 
 
