@@ -2,41 +2,17 @@ import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
-import FacebookSvg from "./shared/svgs/facebook.svg";
-import GoogleSvg from "./shared/svgs/google.svg";
-import EmailSvg from "./shared/svgs/email.svg";
 
 export interface BaseButtonProps {
-  borderColor: string;
+  bordercolor: string;
 }
 
 const TextGridItem = styled(Grid)`
   text-align: start;
 `;
 
-const EmailIcon = styled.div`
-  width: 24px;
-  height: 24px;
-  background-image: url(${EmailSvg});
-`;
-
-const FacebookIcon = styled.div`
-  width: 24px;
-  height: 24px;
-  background-image: url(${FacebookSvg});
-  background-repeat: no-repeat;
-  background-position: center;
-`;
-
-const GoogleIcon = styled.div`
-  width: 24px;
-  height: 24px;
-  background-image: url(${GoogleSvg});
-  background-size: cover;
-`;
-
 const BaseButton = styled(Button)<BaseButtonProps>`
-  border: 1px solid ${({ borderColor }): string => borderColor};
+  border: 1px solid ${({ bordercolor }): string => bordercolor};
   justify-content: right;
   height: 46px;
   width: 272px;
@@ -55,11 +31,4 @@ const TypographySignIn = styled(Typography)`
   margin-top: 216px;
 `;
 
-export {
-  BaseButton,
-  TextGridItem,
-  EmailIcon,
-  GoogleIcon,
-  FacebookIcon,
-  TypographySignIn,
-};
+export { BaseButton, TextGridItem, TypographySignIn };
