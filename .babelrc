@@ -3,7 +3,6 @@
   "plugins": [
     "@babel/plugin-proposal-object-rest-spread",
     "@babel/transform-runtime",
-    "@babel/plugin-transform-modules-commonjs",
-    "file-loader"
+    "@babel/plugin-transform-modules-commonjs"
   ]
 }
