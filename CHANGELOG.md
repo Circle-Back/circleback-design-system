@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/amalv/circleback-design-system/compare/v1.2.5...v1.2.6) (2019-11-06)
+
+
+### Bug Fixes
+
+* icons not displaying in sign in buttons ([#30](https://github.com/amalv/circleback-design-system/issues/30)) ([7d5e3f7](https://github.com/amalv/circleback-design-system/commit/7d5e3f7ca5cba0b6c02e2e4bd5a472aa6050a166))
+
 ## [1.2.5](https://github.com/amalv/circleback-design-system/compare/v1.2.4...v1.2.5) (2019-11-05)
 
 
