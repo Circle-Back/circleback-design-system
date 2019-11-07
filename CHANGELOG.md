@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/amalv/circleback-design-system/compare/v1.2.6...v1.3.0) (2019-11-07)
+
+
+### Features
+
+* add input component and stories ([#33](https://github.com/amalv/circleback-design-system/issues/33)) ([7f8595c](https://github.com/amalv/circleback-design-system/commit/7f8595ce0c12cec8b3d3306f9410bbde1b3d92b7))
+
 ## [1.2.6](https://github.com/amalv/circleback-design-system/compare/v1.2.5...v1.2.6) (2019-11-06)
 
 
