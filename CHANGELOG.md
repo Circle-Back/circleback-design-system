@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/amalv/circleback-design-system/compare/v1.3.0...v1.3.1) (2019-11-07)
+
+
+### Bug Fixes
+
+* export input component ([ab9f43c](https://github.com/amalv/circleback-design-system/commit/ab9f43c507e637db200299c0fe560df6bd7131a5))
+
 # [1.3.0](https://github.com/amalv/circleback-design-system/compare/v1.2.6...v1.3.0) (2019-11-07)
 
 
