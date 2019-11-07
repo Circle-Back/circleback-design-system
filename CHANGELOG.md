@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/amalv/circleback-design-system/compare/v1.3.1...v1.4.0) (2019-11-07)
+
+
+### Features
+
+* add fullWidth prop for Input component ([#35](https://github.com/amalv/circleback-design-system/issues/35)) ([9497060](https://github.com/amalv/circleback-design-system/commit/94970601fa5cad0fa84710793885ff2f6829d289))
+
 ## [1.3.1](https://github.com/amalv/circleback-design-system/compare/v1.3.0...v1.3.1) (2019-11-07)
 
 
