@@ -6,12 +6,14 @@ interface InputProps {
   placeholder?: string;
   label?: string;
   borderColor?: string;
+  fullWidth?: boolean;
 }
 
 export const Input: React.FC<InputProps> = ({
   placeholder,
   label,
   borderColor,
+  fullWidth,
 }: InputProps) => {
   const placeholderProp = placeholder || "Placeholder";
   const labelProp = label || "Label";
@@ -28,6 +30,7 @@ export const Input: React.FC<InputProps> = ({
         }}
         variant="outlined"
         bordercolor={borderColorProp}
+        fullWidth={fullWidth}
       />
     </StylesProvider>
   );

@@ -9,6 +9,7 @@ export interface InputStyledProps {
   variant: string;
   bordercolor: string;
   InputLabelProps: object;
+  fullWidth?: boolean;
 }
 
 export const InputStyled = styled(TextField as React.FC<InputStyledProps>)`
