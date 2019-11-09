@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/amalv/circleback-design-system/compare/v1.4.0...v1.5.0) (2019-11-09)
+
+
+### Features
+
+* add storybook addon source loader ([#36](https://github.com/amalv/circleback-design-system/issues/36)) ([ce3c848](https://github.com/amalv/circleback-design-system/commit/ce3c848fefba6676b523c1774c4fc241d8d82cfe))
+
 # [1.4.0](https://github.com/amalv/circleback-design-system/compare/v1.3.1...v1.4.0) (2019-11-07)
 
 
