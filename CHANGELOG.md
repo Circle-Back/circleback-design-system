@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/amalv/circleback-design-system/compare/v1.5.0...v1.6.0) (2019-11-09)
+
+
+### Features
+
+* add storybook viewport addon ([#37](https://github.com/amalv/circleback-design-system/issues/37)) ([7056879](https://github.com/amalv/circleback-design-system/commit/705687998a275d09a0fcddf7dda7001449b2c68d))
+
 # [1.5.0](https://github.com/amalv/circleback-design-system/compare/v1.4.0...v1.5.0) (2019-11-09)
 
 
