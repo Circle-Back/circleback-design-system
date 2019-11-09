@@ -10,9 +10,13 @@ export interface InputStyledProps {
   bordercolor: string;
   InputLabelProps: object;
   fullWidth?: boolean;
+  color?: string | undefined;
 }
 
 export const InputStyled = styled(TextField as React.FC<InputStyledProps>)`
+  input {
+    color: ${({ color }): string | undefined => color};
+  }
   label {
     color: ${({ bordercolor }): string => bordercolor};
   }

@@ -1,4 +1,4 @@
-import React, { ReactText } from "react";
+import React from "react";
 import styled from "styled-components";
 import { icons } from "./shared/icons";
 
@@ -10,13 +10,15 @@ interface IconProps {
   icon: string;
   block?: boolean;
   color: string;
-  fillOpacity: string;
+  fillOpacity?: string | undefined;
   viewBox?: string;
+  width?: string;
+  height?: string;
 }
 
 interface PathProps {
-  [index: string]: number | string;
-  fillOpacity: ReactText;
+  [index: string]: number | string | undefined;
+  fillOpacity?: string | undefined;
 }
 
 const Svg = styled.svg<{ block?: boolean }>`
@@ -27,7 +29,7 @@ const Svg = styled.svg<{ block?: boolean }>`
 `;
 
 const Path = styled.path<PathProps>`
-  fill-opacity: ${({ fillOpacity }): ReactText => fillOpacity};
+  fill-opacity: ${({ fillOpacity }): string | undefined => fillOpacity};
   fill: currentColor;
 `;
 
@@ -50,10 +52,19 @@ export const Icon: React.FC<IconProps> = ({
   color,
   fillOpacity,
   viewBox,
+  width,
+  height,
 }: IconProps) => {
   const viewBoxProp = viewBox || "0 0 24 24";
+  const widthProp = width || "24px";
+  const heightProp = height || "24px";
   return (
-    <Svg viewBox={viewBoxProp} width="24px" height="24px" block={block}>
+    <Svg
+      viewBox={viewBoxProp}
+      width={widthProp}
+      height={heightProp}
+      block={block}
+    >
       <Path color={color} fillOpacity={fillOpacity} d={icons[icon]} />
     </Svg>
   );

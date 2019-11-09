@@ -1,5 +1,5 @@
 import React from "react";
-import { StylesProvider } from "@material-ui/core/styles";
+import { StylesProvider, useTheme } from "@material-ui/core/styles";
 import { InputStyled } from "./Input.styles";
 
 interface InputProps {
@@ -15,6 +15,7 @@ export const Input: React.FC<InputProps> = ({
   borderColor,
   fullWidth,
 }: InputProps) => {
+  const theme = useTheme();
   const placeholderProp = placeholder || "Placeholder";
   const labelProp = label || "Label";
   const borderColorProp = borderColor || "#0000003b";
@@ -22,11 +23,13 @@ export const Input: React.FC<InputProps> = ({
     <StylesProvider injectFirst>
       <InputStyled
         id="standard-full-width"
+        color={theme.palette.text.secondary}
         label={labelProp}
         placeholder={placeholderProp}
         margin="normal"
         InputLabelProps={{
           shrink: true,
+          color: "primary",
         }}
         variant="outlined"
         bordercolor={borderColorProp}

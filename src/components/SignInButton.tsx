@@ -43,7 +43,7 @@ export const SignInButton: React.FC<SignInButtonProps> = ({
   children,
 }: SignInButtonProps) => (
   <StylesProvider injectFirst>
-    <BaseButton variant="contained" bordercolor={bordercolor}>
+    <BaseButton color="secondary" variant="contained" bordercolor={bordercolor}>
       <Grid container xs={12} spacing={2} item>
         <Grid item xs={2}>
           {SIGNIN_ICONS[type]}
