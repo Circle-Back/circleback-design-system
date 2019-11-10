@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/amalv/circleback-design-system/compare/v1.6.0...v1.6.1) (2019-11-10)
+
+
+### Bug Fixes
+
+* linting errors when running storybook ([#38](https://github.com/amalv/circleback-design-system/issues/38)) ([6520757](https://github.com/amalv/circleback-design-system/commit/65207571ba86b06c8d543377671a8f4fa1df585d))
+
 # [1.6.0](https://github.com/amalv/circleback-design-system/compare/v1.5.0...v1.6.0) (2019-11-09)
 
 
