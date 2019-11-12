@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/amalv/circleback-design-system/compare/v1.7.0...v1.8.0) (2019-11-12)
+
+
+### Features
+
+* add textcolor prop for SignIn component ([#50](https://github.com/amalv/circleback-design-system/issues/50)) ([f3361d3](https://github.com/amalv/circleback-design-system/commit/f3361d3da407c83a4bbac5f2e5882d0480c1b2c4))
+
 # [1.7.0](https://github.com/amalv/circleback-design-system/compare/v1.6.1...v1.7.0) (2019-11-12)
 
 
