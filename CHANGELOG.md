@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/amalv/circleback-design-system/compare/v1.6.1...v1.7.0) (2019-11-12)
+
+
+### Features
+
+* add post component ([#47](https://github.com/amalv/circleback-design-system/issues/47)) ([f0d2fbd](https://github.com/amalv/circleback-design-system/commit/f0d2fbd36f0bb4fd24492debd8970204254f6fa3))
+
 ## [1.6.1](https://github.com/amalv/circleback-design-system/compare/v1.6.0...v1.6.1) (2019-11-10)
 
 
