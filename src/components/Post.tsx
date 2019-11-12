@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { StylesProvider, useTheme } from "@material-ui/core/styles";
 import CardContent from "@material-ui/core/CardContent";
 import Grid from "@material-ui/core/Grid";

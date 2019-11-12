@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import Grid from "@material-ui/core/Grid";
 import { StylesProvider } from "@material-ui/core/styles";
 import { TextGridItem, BaseButton } from "./SignIn.styles";

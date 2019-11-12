@@ -1,10 +1,6 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
 import { icons } from "./shared/icons";
-
-interface MyType {
-  [key: string]: string;
-}
 
 interface IconProps {
   icon: string;
