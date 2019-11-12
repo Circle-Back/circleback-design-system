@@ -4,7 +4,8 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 
 export interface BaseButtonProps {
-  bordercolor: string;
+  textcolor?: string | undefined;
+  bordercolor?: string | undefined;
 }
 
 const TextGridItem = styled(Grid)`
@@ -12,7 +13,8 @@ const TextGridItem = styled(Grid)`
 `;
 
 const BaseButton = styled(Button)<BaseButtonProps>`
-  border: 1px solid ${({ bordercolor }): string => bordercolor};
+  color: ${({ textcolor }): string => textcolor || "black"};
+  border: 1px solid ${({ bordercolor }): string => bordercolor || "#fff"};
   justify-content: right;
   height: 46px;
   width: 272px;
