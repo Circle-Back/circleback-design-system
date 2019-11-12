@@ -5,7 +5,8 @@ import { TextGridItem, BaseButton } from "./SignIn.styles";
 import { Icon } from "./Icon";
 
 export interface SignInButtonProps {
-  bordercolor: string;
+  textcolor?: string | undefined;
+  bordercolor?: string | undefined;
   type: string;
   children: React.ReactNode;
 }
@@ -38,12 +39,17 @@ const SIGNIN_ICONS: ReadonlyReactElementsDictionary = {
 };
 
 export const SignInButton: React.FC<SignInButtonProps> = ({
+  textcolor,
   type,
   bordercolor,
   children,
 }: SignInButtonProps) => (
   <StylesProvider injectFirst>
-    <BaseButton color="secondary" variant="contained" bordercolor={bordercolor}>
+    <BaseButton
+      textcolor={textcolor}
+      variant="contained"
+      bordercolor={bordercolor}
+    >
       <Grid container xs={12} spacing={2} item>
         <Grid item xs={2}>
           {SIGNIN_ICONS[type]}
