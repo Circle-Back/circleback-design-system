@@ -10,6 +10,7 @@ const theme = createMuiTheme({
     secondary: {
       main: "#BB86FC",
     },
+    tertiary: "rgba(255, 255, 255, 0.6)",
     error: {
       main: red.A400,
     },
@@ -19,6 +20,13 @@ const theme = createMuiTheme({
     text: {
       primary: "#7f39fb",
       secondary: "rgba(0, 0, 0, 0.74)",
+    },
+  },
+  overrides: {
+    MuiMenuItem: {
+      root: {
+        color: "rgba(0, 0, 0, 0.74)",
+      },
     },
   },
 });
