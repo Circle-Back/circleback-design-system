@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/amalv/circleback-design-system/compare/v1.8.0...v1.9.0) (2019-11-13)
+
+
+### Features
+
+* add typescript compiler for build script ([#53](https://github.com/amalv/circleback-design-system/issues/53)) ([aaee730](https://github.com/amalv/circleback-design-system/commit/aaee7306e69fbac43d7dc53275d78877ef7f74e2))
+
 # [1.8.0](https://github.com/amalv/circleback-design-system/compare/v1.7.0...v1.8.0) (2019-11-12)
 
 
