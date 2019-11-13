@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/amalv/circleback-design-system/compare/v1.9.0...v1.10.0) (2019-11-13)
+
+
+### Features
+
+* add filters component ([#54](https://github.com/amalv/circleback-design-system/issues/54)) ([f4d3a15](https://github.com/amalv/circleback-design-system/commit/f4d3a15bcb549722b0388c1d82e4ca7430e8bfe5))
+
 # [1.9.0](https://github.com/amalv/circleback-design-system/compare/v1.8.0...v1.9.0) (2019-11-13)
 
 
