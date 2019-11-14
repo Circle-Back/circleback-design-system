@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/amalv/circleback-design-system/compare/v1.10.0...v1.10.1) (2019-11-14)
+
+
+### Bug Fixes
+
+* add Filters component export to components index ([cd476bf](https://github.com/amalv/circleback-design-system/commit/cd476bf2802f55ee604fdde1c84ffcb804f5a942))
+
 # [1.10.0](https://github.com/amalv/circleback-design-system/compare/v1.9.0...v1.10.0) (2019-11-13)
 
 
