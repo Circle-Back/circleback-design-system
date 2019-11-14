@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/amalv/circleback-design-system/compare/v1.10.2...v1.11.0) (2019-11-14)
+
+
+### Features
+
+* add button component ([#57](https://github.com/amalv/circleback-design-system/issues/57)) ([c8faaea](https://github.com/amalv/circleback-design-system/commit/c8faaea856d8ecea5f6a1dc4567de9e14d3d84e4))
+
 ## [1.10.2](https://github.com/amalv/circleback-design-system/compare/v1.10.1...v1.10.2) (2019-11-14)
 
 
