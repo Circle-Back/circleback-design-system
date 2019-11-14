@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/amalv/circleback-design-system/compare/v1.10.1...v1.10.2) (2019-11-14)
+
+
+### Bug Fixes
+
+* add theme provider to filters component ([#56](https://github.com/amalv/circleback-design-system/issues/56)) ([152f847](https://github.com/amalv/circleback-design-system/commit/152f8473bcc3190c012633f26de02e2a7e4bb06b))
+
 ## [1.10.1](https://github.com/amalv/circleback-design-system/compare/v1.10.0...v1.10.1) (2019-11-14)
 
 
