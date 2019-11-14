@@ -39,15 +39,13 @@ export const FormControlStyled = styled(FormControl)`
 
 export const InputBaseStyled = styled(InputBase)<InputBaseStyledProps>`
   color: ${({ textcolor }): string | undefined => textcolor};
+  margin-left: 13px;
   height: 38px;
   border-radius: 4px;
   background-color: white;
   font-size: 12px;
   .MuiSelect-icon {
     margin-right: 4px;
-  }
-  .MuiInputBase-input {
-    padding: 10px 0 10px 13px;
   }
   .MuiSelect-select:focus {
     background-color: white;
