@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/amalv/circleback-design-system/compare/v1.11.0...v1.11.1) (2019-11-14)
+
+
+### Bug Fixes
+
+* add text support for button component ([#58](https://github.com/amalv/circleback-design-system/issues/58)) ([0365098](https://github.com/amalv/circleback-design-system/commit/0365098f86029fd46ff4b3d0cfd6edd5ea53baa2))
+
 # [1.11.0](https://github.com/amalv/circleback-design-system/compare/v1.10.2...v1.11.0) (2019-11-14)
 
 
