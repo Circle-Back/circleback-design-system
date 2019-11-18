@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/amalv/circleback-design-system/compare/v1.11.1...v1.12.0) (2019-11-18)
+
+
+### Bug Fixes
+
+* fix images loading in headline component ([#66](https://github.com/amalv/circleback-design-system/issues/66)) ([a2f283b](https://github.com/amalv/circleback-design-system/commit/a2f283b6273a2a8c64f10c3a2a32cc750b39ccbd))
+
+
+### Features
+
+* add headline component ([#65](https://github.com/amalv/circleback-design-system/issues/65)) ([b372496](https://github.com/amalv/circleback-design-system/commit/b37249697a01b4ac788cd509c32ed192ec48aae4))
+
 ## [1.11.1](https://github.com/amalv/circleback-design-system/compare/v1.11.0...v1.11.1) (2019-11-14)
 
 
