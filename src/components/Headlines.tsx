@@ -14,59 +14,48 @@ import {
 import { Icon } from "./Icon";
 
 export interface HeadlineProps {
-  children: React.ReactNode;
+  title: string;
+  linkName: string;
+  cards: Record<string, any>;
 }
 
 export const Headlines: React.FC<HeadlineProps> = ({
-  children,
+  title,
+  linkName,
+  cards,
 }: HeadlineProps) => {
   const theme = useTheme();
   return (
     <StylesProvider injectFirst>
-      <Box width="344px" height="207px">
+      <Box height="207px">
         <PaperStyled padding={theme.spacing(1)}>
           <Grid spacing={2} container direction="column">
             <Grid item>
               <Grid justify="space-between" container>
-                <Title color="primary">{children}</Title>
+                <Title color="primary">{title}</Title>
                 <Icon color="rgba(0, 0, 0, 0.6)" icon="share" />
               </Grid>
             </Grid>
             <Grid item>
               <Grid spacing={1} justify="center" container>
-                <Grid item>
-                  <HeadlineCard>
-                    <HeadlineCardImage />
-                    <HeadlineCardTitle>Tablets</HeadlineCardTitle>
-                    <HeadlineCardSubtitle>Subtitle</HeadlineCardSubtitle>
-                  </HeadlineCard>
-                </Grid>
-                <Grid item>
-                  <HeadlineCard>
-                    <HeadlineCardImage />
-                    <HeadlineCardTitle>Tablets</HeadlineCardTitle>
-                    <HeadlineCardSubtitle>Subtitle</HeadlineCardSubtitle>
-                  </HeadlineCard>
-                </Grid>
-                <Grid item>
-                  <HeadlineCard>
-                    <HeadlineCardImage />
-                    <HeadlineCardTitle>Tablets</HeadlineCardTitle>
-                    <HeadlineCardSubtitle>Subtitle</HeadlineCardSubtitle>
-                  </HeadlineCard>
-                </Grid>
-                <Grid item>
-                  <HeadlineCard>
-                    <HeadlineCardImage />
-                    <HeadlineCardTitle>Tablets</HeadlineCardTitle>
-                    <HeadlineCardSubtitle>Subtitle</HeadlineCardSubtitle>
-                  </HeadlineCard>
-                </Grid>
+                {cards.data.map((card: any) => (
+                  <React.Fragment key={card.title}>
+                    <Grid item>
+                      <HeadlineCard>
+                        <HeadlineCardImage image={card.image} />
+                        <HeadlineCardTitle>{card.title}</HeadlineCardTitle>
+                        <HeadlineCardSubtitle>
+                          {card.subtitle}
+                        </HeadlineCardSubtitle>
+                      </HeadlineCard>
+                    </Grid>
+                  </React.Fragment>
+                ))}
               </Grid>
             </Grid>
             <Grid item>
               <Grid container justify="flex-end">
-                <HeadlineCardLink>See all categories</HeadlineCardLink>
+                <HeadlineCardLink>{linkName}</HeadlineCardLink>
               </Grid>
             </Grid>
           </Grid>
