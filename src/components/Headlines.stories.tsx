@@ -5,4 +5,64 @@ export default {
   title: "Headlines",
 };
 
-export const Default: React.FC = () => <Headlines>Top Categories</Headlines>;
+const cardsCategories = {
+  data: [
+    {
+      title: "Tablets",
+      subtitle: "Subtitle",
+      image: "./tablets.png",
+    },
+    {
+      title: "Electronics",
+      subtitle: "Subtitle",
+      image: "./electronics.png",
+    },
+    {
+      title: "Displays",
+      subtitle: "Subtitle",
+      image: "./displays.png",
+    },
+    {
+      title: "Games",
+      subtitle: "Subtitle",
+      image: "./games.png",
+    },
+  ],
+};
+
+const cardsNews = {
+  data: [
+    {
+      title: "Mobile",
+      subtitle: "Subtitle",
+      image: "./mobile.png",
+    },
+    {
+      title: "New Mac",
+      subtitle: "Subtitle",
+      image: "./mac.png",
+    },
+    {
+      title: "New Game",
+      subtitle: "Subtitle",
+      image: "./game.png",
+    },
+    {
+      title: "Playstation",
+      subtitle: "Subtitle",
+      image: "./playstation.png",
+    },
+  ],
+};
+
+export const Categories: React.FC = () => (
+  <Headlines
+    title="Top categories"
+    linkName="See all categories"
+    cards={cardsCategories}
+  />
+);
+
+export const News: React.FC = () => (
+  <Headlines title="News" linkName="See all news" cards={cardsNews} />
+);

@@ -6,6 +6,10 @@ export interface PaperStyledProps {
   padding?: string | number | undefined;
 }
 
+export interface HeadlineCardImageProps {
+  image: string;
+}
+
 export const HeadlineCard = styled(Paper)`
   width: 76px;
   height: 115px;
@@ -46,11 +50,11 @@ export const HeadlineCardSubtitle = styled(Typography)`
   font-weight: 400;
 `;
 
-export const HeadlineCardImage = styled.div`
+export const HeadlineCardImage = styled.div<HeadlineCardImageProps>`
   margin: auto;
   width: 70px;
   height: 70px;
-  background-image: url("./tabletHeadlineCard.png");
+  background-image: url(${({ image }): string => image});
   background-position: center;
   background-size: cover;
 `;
