@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/amalv/circleback-design-system/compare/v1.13.0...v1.14.0) (2019-11-19)
+
+
+### Features
+
+* add post story to headlines component ([#72](https://github.com/amalv/circleback-design-system/issues/72)) ([1a93a3a](https://github.com/amalv/circleback-design-system/commit/1a93a3af6ca4099876c1354bdbdd284518bf68ba))
+
 # [1.13.0](https://github.com/amalv/circleback-design-system/compare/v1.12.0...v1.13.0) (2019-11-19)
 
 
