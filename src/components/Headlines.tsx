@@ -10,19 +10,71 @@ import {
   HeadlineCardImage,
   HeadlineCardSubtitle,
   HeadlineCardLink,
+  PostTitle,
+  PostCategory,
+  PostTimeAgo,
+  PostDivider,
 } from "./Headlines.styles";
 import { Icon } from "./Icon";
 
 export interface HeadlineProps {
   title: string;
   linkName: string;
+  children: React.ReactNode;
+}
+
+export interface Item {
+  title: string;
+  subtitle: string;
+  image: string;
+}
+
+export interface PostItem {
+  title: string;
+  category: string;
+}
+
+export interface CardsProps {
   cards: Record<string, any>;
 }
+
+export interface PostsProps {
+  posts: Record<string, any>;
+}
+
+export const Posts: React.FC<PostsProps> = ({ posts }) => posts.data.map((post: PostItem) => (
+  <>
+    <Grid container alignItems="center">
+      <Grid item>
+        <PostTitle>{post.title}</PostTitle>
+      </Grid>
+      <Grid item>
+        <PostCategory>{post.category}</PostCategory>
+      </Grid>
+      <Grid item>
+        <PostTimeAgo>2 min ago</PostTimeAgo>
+      </Grid>
+    </Grid>
+    <PostDivider variant="middle" />
+  </>
+));
+
+export const Cards: React.FC<CardsProps> = ({ cards }) => cards.data.map((item: Item) => (
+  <React.Fragment key={item.title}>
+    <Grid item>
+      <HeadlineCard>
+        <HeadlineCardImage image={item.image} />
+        <HeadlineCardTitle>{item.title}</HeadlineCardTitle>
+        <HeadlineCardSubtitle>{item.subtitle}</HeadlineCardSubtitle>
+      </HeadlineCard>
+    </Grid>
+  </React.Fragment>
+));
 
 export const Headlines: React.FC<HeadlineProps> = ({
   title,
   linkName,
-  cards,
+  children,
 }: HeadlineProps) => {
   const theme = useTheme();
   return (
@@ -38,19 +90,7 @@ export const Headlines: React.FC<HeadlineProps> = ({
             </Grid>
             <Grid item>
               <Grid spacing={1} justify="center" container>
-                {cards.data.map((card: any) => (
-                  <React.Fragment key={card.title}>
-                    <Grid item>
-                      <HeadlineCard>
-                        <HeadlineCardImage image={card.image} />
-                        <HeadlineCardTitle>{card.title}</HeadlineCardTitle>
-                        <HeadlineCardSubtitle>
-                          {card.subtitle}
-                        </HeadlineCardSubtitle>
-                      </HeadlineCard>
-                    </Grid>
-                  </React.Fragment>
-                ))}
+                {children}
               </Grid>
             </Grid>
             <Grid item>

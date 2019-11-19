@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
+import Divider from "@material-ui/core/Divider";
 
 export interface PaperStyledProps {
   padding?: string | number | undefined;
@@ -9,6 +10,39 @@ export interface PaperStyledProps {
 export interface HeadlineCardImageProps {
   image: string;
 }
+
+export const PostDivider = styled(Divider)`
+  width: 100%;
+`;
+export const PostTimeAgo = styled.div`
+  width: 57px;
+  height: 16px;
+  color: rgba(0, 0, 0, 0.62);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+`;
+
+export const PostTitle = styled.div`
+  width: 174px;
+  height: 24px;
+  color: rgba(0, 0, 0, 0.74);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+`;
+
+export const PostCategory = styled.div`
+  width: 81px;
+  height: 16px;
+  color: #018786;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+`;
 
 export const HeadlineCard = styled(Paper)`
   width: 76px;
