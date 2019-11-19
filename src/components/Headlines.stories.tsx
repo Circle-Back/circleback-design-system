@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Headlines } from "./Headlines";
+import { Headlines, Cards, Posts } from "./Headlines";
 
 export default {
   title: "Headlines",
@@ -55,14 +55,33 @@ const cardsNews = {
   ],
 };
 
+const cardsPosts = {
+  data: [
+    {
+      title: "Lorem ipsum dolor sit amet…",
+      category: "Category",
+    },
+    {
+      title: "Lorem ipsum dolor sit amet…",
+      category: "Category",
+    },
+  ],
+};
+
 export const Categories: React.FC = () => (
-  <Headlines
-    title="Top categories"
-    linkName="See all categories"
-    cards={cardsCategories}
-  />
+  <Headlines title="Top categories" linkName="See all categories">
+    <Cards cards={cardsCategories} />
+  </Headlines>
 );
 
 export const News: React.FC = () => (
-  <Headlines title="News" linkName="See all news" cards={cardsNews} />
+  <Headlines title="News" linkName="See all news">
+    <Cards cards={cardsNews} />
+  </Headlines>
+);
+
+export const LastPosts: React.FC = () => (
+  <Headlines title="Latest Posts" linkName="See all posts">
+    <Posts posts={cardsPosts} />
+  </Headlines>
 );
