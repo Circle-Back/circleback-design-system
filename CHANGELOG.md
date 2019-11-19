@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/amalv/circleback-design-system/compare/v1.12.0...v1.13.0) (2019-11-19)
+
+
+### Features
+
+* update headlines component ([#71](https://github.com/amalv/circleback-design-system/issues/71)) ([0e9b130](https://github.com/amalv/circleback-design-system/commit/0e9b130b9774df7f36f309d41dd5be06d6502081))
+
 # [1.12.0](https://github.com/amalv/circleback-design-system/compare/v1.11.1...v1.12.0) (2019-11-18)
 
 
