@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/amalv/circleback-design-system/compare/v1.14.0...v1.14.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* export headlines component ([#74](https://github.com/amalv/circleback-design-system/issues/74)) ([34219d6](https://github.com/amalv/circleback-design-system/commit/34219d6497b829600ef44bfca1566ea24b025b35))
+
 # [1.14.0](https://github.com/amalv/circleback-design-system/compare/v1.13.0...v1.14.0) (2019-11-19)
 
 
