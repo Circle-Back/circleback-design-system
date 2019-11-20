@@ -1,6 +1,5 @@
 import * as React from "react";
 import { StylesProvider, useTheme } from "@material-ui/core/styles";
-import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import {
   Title,
@@ -79,28 +78,26 @@ export const Headlines: React.FC<HeadlineProps> = ({
   const theme = useTheme();
   return (
     <StylesProvider injectFirst>
-      <Box height="207px">
-        <PaperStyled padding={theme.spacing(1)}>
-          <Grid spacing={2} container direction="column">
-            <Grid item>
-              <Grid justify="space-between" container>
-                <Title color="primary">{title}</Title>
-                <Icon color="rgba(0, 0, 0, 0.6)" icon="share" />
-              </Grid>
-            </Grid>
-            <Grid item>
-              <Grid spacing={1} justify="center" container>
-                {children}
-              </Grid>
-            </Grid>
-            <Grid item>
-              <Grid container justify="flex-end">
-                <HeadlineCardLink>{linkName}</HeadlineCardLink>
-              </Grid>
+      <PaperStyled padding={theme.spacing(1)}>
+        <Grid spacing={2} container direction="column">
+          <Grid item>
+            <Grid justify="space-between" container>
+              <Title color="primary">{title}</Title>
+              <Icon color="rgba(0, 0, 0, 0.6)" icon="share" />
             </Grid>
           </Grid>
-        </PaperStyled>
-      </Box>
+          <Grid item>
+            <Grid spacing={1} justify="center" container>
+              {children}
+            </Grid>
+          </Grid>
+          <Grid item>
+            <Grid container justify="flex-end">
+              <HeadlineCardLink>{linkName}</HeadlineCardLink>
+            </Grid>
+          </Grid>
+        </Grid>
+      </PaperStyled>
     </StylesProvider>
   );
 };
