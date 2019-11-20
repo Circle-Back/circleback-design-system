@@ -4,3 +4,4 @@ export * from "./Input";
 export * from "./Post";
 export * from "./Filters";
 export * from "./Button";
+export * from "./Headlines";
