@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/amalv/circleback-design-system/compare/v1.14.1...v1.14.2) (2019-11-20)
+
+
+### Bug Fixes
+
+* remove fixed height from headlines component ([#75](https://github.com/amalv/circleback-design-system/issues/75)) ([a09766e](https://github.com/amalv/circleback-design-system/commit/a09766e837a782f488b078b40b0c5d18cde8cae7))
+
 ## [1.14.1](https://github.com/amalv/circleback-design-system/compare/v1.14.0...v1.14.1) (2019-11-20)
 
 
