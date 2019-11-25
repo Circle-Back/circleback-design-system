@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/amalv/circleback-design-system/compare/v1.15.0...v1.15.1) (2019-11-25)
+
+
+### Bug Fixes
+
+* export contextual component in index file ([#87](https://github.com/amalv/circleback-design-system/issues/87)) ([4f8196a](https://github.com/amalv/circleback-design-system/commit/4f8196ae64aa33afc88c5ffb2c93373c7ed3b051))
+
 # [1.15.0](https://github.com/amalv/circleback-design-system/compare/v1.14.2...v1.15.0) (2019-11-21)
 
 
