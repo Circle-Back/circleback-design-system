@@ -1,22 +1,37 @@
 import styled from "styled-components";
 import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
 
 export interface BackgroundImageProps {
   image: string;
 }
+
+interface ContextualButtonProps {
+  textcolor?: string | undefined;
+  backgroundcolor?: string | undefined;
+}
+
+export const ContextualContainer = styled.div`
+  position: relative;
+`;
+
+export const ContextualButton = styled(Button)<ContextualButtonProps>`
+  height: 36px;
+  background-color: ${({ backgroundcolor }): string => backgroundcolor || "white"};
+  color: ${({ textcolor }): string => textcolor || "white"};
+  top: 140%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -140%);
+  position: absolute;
+`;
 
 export const StyledGrid = styled(Grid)`
   position: absolute;
   z-index: 1;
 `;
 
-export const ContextualContainer = styled.div`
-  position: relative;
-  width: 344px;
-  height: 100px;
-`;
 export const BackgroundImage = styled.div<BackgroundImageProps>`
-  width: 344px;
   height: 100px;
   border-radius: 4px;
   background-image: url(${({ image }): string => image});
