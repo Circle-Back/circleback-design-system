@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/amalv/circleback-design-system/compare/v1.15.1...v1.16.0) (2019-11-25)
+
+
+### Features
+
+* add with button story for contextual component ([#88](https://github.com/amalv/circleback-design-system/issues/88)) ([8d79c3b](https://github.com/amalv/circleback-design-system/commit/8d79c3b1ee9690d41f4a470f65031bffadb2fc5f))
+
 ## [1.15.1](https://github.com/amalv/circleback-design-system/compare/v1.15.0...v1.15.1) (2019-11-25)
 
 
