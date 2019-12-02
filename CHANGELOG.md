@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/amalv/circleback-design-system/compare/v1.17.0...v1.17.1) (2019-12-02)
+
+
+### Bug Fixes
+
+* remove storybook react types dependency ([#106](https://github.com/amalv/circleback-design-system/issues/106)) ([939a349](https://github.com/amalv/circleback-design-system/commit/939a349861b29a532916d731b54352b2aac515ed))
+
 # [1.17.0](https://github.com/amalv/circleback-design-system/compare/v1.16.0...v1.17.0) (2019-12-02)
 
 
