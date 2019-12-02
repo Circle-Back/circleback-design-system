@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/amalv/circleback-design-system/compare/v1.16.0...v1.17.0) (2019-12-02)
+
+
+### Features
+
+* update dependencies ([7151a31](https://github.com/amalv/circleback-design-system/commit/7151a31398bd06302325c0a4788118a3a576f905))
+
 # [1.16.0](https://github.com/amalv/circleback-design-system/compare/v1.15.1...v1.16.0) (2019-11-25)
 
 
