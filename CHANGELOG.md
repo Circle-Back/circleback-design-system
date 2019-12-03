@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/amalv/circleback-design-system/compare/v1.17.1...v1.18.0) (2019-12-03)
+
+
+### Features
+
+* add answer component ([#110](https://github.com/amalv/circleback-design-system/issues/110)) ([2758d97](https://github.com/amalv/circleback-design-system/commit/2758d97c26d745137da5b272355e672b7026df63))
+
 ## [1.17.1](https://github.com/amalv/circleback-design-system/compare/v1.17.0...v1.17.1) (2019-12-02)
 
 
