@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/amalv/circleback-design-system/compare/v1.18.0...v1.18.1) (2019-12-03)
+
+
+### Bug Fixes
+
+* rename answer component to question ([#112](https://github.com/amalv/circleback-design-system/issues/112)) ([451be40](https://github.com/amalv/circleback-design-system/commit/451be406f261395772a8aa6a4fbe1d9e6e221516))
+
 # [1.18.0](https://github.com/amalv/circleback-design-system/compare/v1.17.1...v1.18.0) (2019-12-03)
 
 
