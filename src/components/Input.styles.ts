@@ -11,9 +11,14 @@ export interface InputStyledProps {
   InputLabelProps: object;
   fullWidth?: boolean;
   color?: string | undefined;
+  multiline?: boolean | undefined;
+  rows?: string | undefined;
 }
 
 export const InputStyled = styled(TextField as React.FC<InputStyledProps>)`
+  textarea {
+    color: ${({ color }): string | undefined => color};
+  }
   input {
     color: ${({ color }): string | undefined => color};
   }
