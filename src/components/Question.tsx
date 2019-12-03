@@ -5,9 +5,9 @@ import Box from "@material-ui/core/Box";
 import theme from "../MuiTheme";
 import { Input } from "./Input";
 import { Button } from "./Button";
-import { BasePaper, Title } from "./Answer.styles";
+import { BasePaper, Title } from "./Question.styles";
 
-export const Answer: React.FC = () => (
+export const Question: React.FC = () => (
   <StylesProvider injectFirst>
     <ThemeProvider theme={theme}>
       <BasePaper>
