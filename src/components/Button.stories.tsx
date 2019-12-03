@@ -5,4 +5,4 @@ export default {
   title: "Button",
 };
 
-export const Default: React.FC = () => <Button>Primary</Button>;
+export const Primary: React.FC = () => <Button>Primary</Button>;

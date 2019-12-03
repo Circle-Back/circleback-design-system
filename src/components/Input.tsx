@@ -7,6 +7,8 @@ interface InputProps {
   label?: string;
   borderColor?: string;
   fullWidth?: boolean;
+  multiline?: boolean;
+  rows?: string;
 }
 
 export const Input: React.FC<InputProps> = ({
@@ -14,6 +16,8 @@ export const Input: React.FC<InputProps> = ({
   label,
   borderColor,
   fullWidth,
+  multiline,
+  rows,
 }: InputProps) => {
   const theme = useTheme();
   const placeholderProp = placeholder || "Placeholder";
@@ -34,6 +38,8 @@ export const Input: React.FC<InputProps> = ({
         variant="outlined"
         bordercolor={borderColorProp}
         fullWidth={fullWidth}
+        multiline={multiline}
+        rows={rows}
       />
     </StylesProvider>
   );
