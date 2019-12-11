@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/amalv/circleback-design-system/compare/v1.18.1...v1.19.0) (2019-12-11)
+
+
+### Features
+
+* add avatar component ([#127](https://github.com/amalv/circleback-design-system/issues/127)) ([73040ca](https://github.com/amalv/circleback-design-system/commit/73040ca7d9dbaf06b82a4b41d40870ecc6058a5b))
+
 ## [1.18.1](https://github.com/amalv/circleback-design-system/compare/v1.18.0...v1.18.1) (2019-12-03)
 
 
