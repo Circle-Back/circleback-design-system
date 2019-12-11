@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/amalv/circleback-design-system/compare/v1.19.0...v1.20.0) (2019-12-11)
+
+
+### Features
+
+* add profile component ([#128](https://github.com/amalv/circleback-design-system/issues/128)) ([128edba](https://github.com/amalv/circleback-design-system/commit/128edba962d566d18fdbd6dda18e9051c5fc1278))
+
 # [1.19.0](https://github.com/amalv/circleback-design-system/compare/v1.18.1...v1.19.0) (2019-12-11)
 
 
