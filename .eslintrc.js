@@ -10,7 +10,16 @@ module.exports = {
       typescript: {},
     },
   },
+
   rules: {
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        ts: "never",
+        tsx: "never",
+      },
+    ],
     "react/jsx-filename-extension": [
       2,
       { extensions: [".js", ".jsx", ".ts", ".tsx"] },
