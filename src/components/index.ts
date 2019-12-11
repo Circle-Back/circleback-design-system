@@ -7,3 +7,5 @@ export * from "./Button";
 export * from "./Headlines";
 export * from "./Contextual";
 export * from "./Question";
+export * from "./Avatar";
+export * from "./Profile";
