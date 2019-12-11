@@ -28,6 +28,11 @@ const theme = createMuiTheme({
         color: "rgba(0, 0, 0, 0.74)",
       },
     },
+    MuiInputBase: {
+      root: {
+        color: "rgba(0, 0, 0, 0.87)",
+      },
+    },
   },
 });
 
