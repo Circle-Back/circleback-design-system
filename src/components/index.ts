@@ -9,3 +9,4 @@ export * from "./Contextual";
 export * from "./Question";
 export * from "./Avatar";
 export * from "./Profile";
+export * from "./Footer";
