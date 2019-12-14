@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/amalv/circleback-design-system/compare/v1.21.2...v1.22.0) (2019-12-14)
+
+
+### Features
+
+* add headlines category story ([#132](https://github.com/amalv/circleback-design-system/issues/132)) ([c5a5201](https://github.com/amalv/circleback-design-system/commit/c5a5201ecef4600a402e7d49f29f60f765ac0186))
+
 ## [1.21.2](https://github.com/amalv/circleback-design-system/compare/v1.21.1...v1.21.2) (2019-12-14)
 
 
