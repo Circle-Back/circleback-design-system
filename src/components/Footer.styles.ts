@@ -2,9 +2,7 @@ import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
 
 export const BaseFooter = styled.div`
-  padding-top: 39px;
-  height: 290px;
-  border-radius: 4px 4px 0 0;
+  padding: 40px;
   background-color: #6200ee;
 `;
 
