@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/amalv/circleback-design-system/compare/v1.20.0...v1.21.0) (2019-12-14)
+
+
+### Features
+
+* add footer component ([#129](https://github.com/amalv/circleback-design-system/issues/129)) ([fdccfd9](https://github.com/amalv/circleback-design-system/commit/fdccfd9e44bcd17ca2ecc43069e5bd059be98c6a))
+
 # [1.20.0](https://github.com/amalv/circleback-design-system/compare/v1.19.0...v1.20.0) (2019-12-11)
 
 
