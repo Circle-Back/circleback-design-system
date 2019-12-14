@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/amalv/circleback-design-system/compare/v1.21.1...v1.21.2) (2019-12-14)
+
+
+### Bug Fixes
+
+* fix extra padding in footer ([#131](https://github.com/amalv/circleback-design-system/issues/131)) ([56c0bfc](https://github.com/amalv/circleback-design-system/commit/56c0bfcc29c59e4188982d145e25ab107ab7708d))
+
 ## [1.21.1](https://github.com/amalv/circleback-design-system/compare/v1.21.0...v1.21.1) (2019-12-14)
 
 
