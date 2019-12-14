@@ -65,6 +65,10 @@ const cardsPosts = {
       title: "Lorem ipsum dolor sit amet…",
       category: "Category",
     },
+    {
+      title: "Lorem ipsum dolor sit amet…",
+      category: "Category",
+    },
   ],
 };
 
@@ -82,6 +86,16 @@ export const News: React.FC = () => (
 
 export const LastPosts: React.FC = () => (
   <Headlines title="Latest Posts" linkName="See all posts">
+    <Posts posts={cardsPosts} />
+  </Headlines>
+);
+
+export const Category: React.FC = () => (
+  <Headlines
+    title="Electronics"
+    linkName="See all posts"
+    image="./electronicsCategory.png"
+  >
     <Posts posts={cardsPosts} />
   </Headlines>
 );

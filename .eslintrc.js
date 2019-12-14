@@ -16,6 +16,7 @@ module.exports = {
       "error",
       "always",
       {
+        js: "never",
         ts: "never",
         tsx: "never",
       },

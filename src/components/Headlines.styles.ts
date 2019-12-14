@@ -7,6 +7,10 @@ export interface PaperStyledProps {
   padding?: string | number | undefined;
 }
 
+export interface HeadlineCategoryImageProps {
+  image?: string | undefined;
+}
+
 export interface HeadlineCardImageProps {
   image: string;
 }
@@ -32,6 +36,15 @@ export const PostTitle = styled.div`
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
+`;
+
+export const PostSubtitle = styled.div`
+  color: rgba(0, 0, 0, 0.74);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 20px;
 `;
 
 export const PostCategory = styled.div`
@@ -82,6 +95,14 @@ export const HeadlineCardSubtitle = styled(Typography)`
   font-family: Roboto;
   font-size: 9px;
   font-weight: 400;
+`;
+
+export const HeadlineCategoryImage = styled.div<HeadlineCategoryImageProps>`
+  width: 40px;
+  height: 40px;
+  background-image: url(${({ image }): string | undefined => image});
+  background-position: center;
+  background-size: cover;
 `;
 
 export const HeadlineCardImage = styled.div<HeadlineCardImageProps>`
