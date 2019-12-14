@@ -1,3 +1,10 @@
+## [1.21.1](https://github.com/amalv/circleback-design-system/compare/v1.21.0...v1.21.1) (2019-12-14)
+
+
+### Bug Fixes
+
+* export footer in components index ([#130](https://github.com/amalv/circleback-design-system/issues/130)) ([a3d4520](https://github.com/amalv/circleback-design-system/commit/a3d4520ebc9405b75ab63ceef9c331440c37b312))
+
 # [1.21.0](https://github.com/amalv/circleback-design-system/compare/v1.20.0...v1.21.0) (2019-12-14)
 
 
