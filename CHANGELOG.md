@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/amalv/circleback-design-system/compare/v1.22.0...v1.23.0) (2019-12-16)
+
+
+### Features
+
+* update headlines component link color ([#135](https://github.com/amalv/circleback-design-system/issues/135)) ([37f4762](https://github.com/amalv/circleback-design-system/commit/37f476223f54c9dd419724faf8c8669907658eda))
+
 # [1.22.0](https://github.com/amalv/circleback-design-system/compare/v1.21.2...v1.22.0) (2019-12-14)
 
 
