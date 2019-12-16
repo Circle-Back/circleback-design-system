@@ -130,7 +130,7 @@ export const Headlines: React.FC<HeadlineProps> = ({
           </Grid>
           <Grid item>
             <Grid container justify="flex-end">
-              <HeadlineCardLink>{linkName}</HeadlineCardLink>
+              <HeadlineCardLink color="primary">{linkName}</HeadlineCardLink>
             </Grid>
           </Grid>
         </Grid>
