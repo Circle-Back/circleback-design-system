@@ -1,9 +1,13 @@
 import styled from "styled-components";
 import Typography from "@material-ui/core/Typography";
 
-export const BaseFooter = styled.div`
+export interface BaseFooterProps {
+  backgroundcolor: string;
+}
+
+export const BaseFooter = styled.div<BaseFooterProps>`
   padding: 40px;
-  background-color: #6200ee;
+  background-color: ${({ backgroundcolor }): string => backgroundcolor};
 `;
 
 export const FooterTitle = styled(Typography)`
