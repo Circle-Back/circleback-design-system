@@ -4,7 +4,7 @@ import FormControl from "@material-ui/core/FormControl";
 import InputBase from "@material-ui/core/InputBase";
 
 interface FiltersLabelProps {
-  textcolor?: string | undefined;
+  textcolor: string;
 }
 
 interface InputBaseStyledProps {
@@ -19,7 +19,7 @@ export const FiltersLabel = styled(Typography)<FiltersLabelProps>`
   font-weight: 500;
   letter-spacing: 0.1px;
   line-height: 24px;
-  color: ${({ textcolor }): string | undefined => textcolor};
+  color: ${({ textcolor }): string => textcolor};
 `;
 
 export const FiltersWrapper = styled.div`
