@@ -1,3 +1,10 @@
+## [1.24.3](https://github.com/amalv/circleback-design-system/compare/v1.24.2...v1.24.3) (2019-12-17)
+
+
+### Bug Fixes
+
+* update theming for filters component ([#143](https://github.com/amalv/circleback-design-system/issues/143)) ([8aa7d41](https://github.com/amalv/circleback-design-system/commit/8aa7d41febc2797580ca6cb307b166c0a087f7eb))
+
 ## [1.24.2](https://github.com/amalv/circleback-design-system/compare/v1.24.1...v1.24.2) (2019-12-17)
 
 
