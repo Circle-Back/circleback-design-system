@@ -1,3 +1,10 @@
+## [1.24.1](https://github.com/amalv/circleback-design-system/compare/v1.24.0...v1.24.1) (2019-12-17)
+
+
+### Bug Fixes
+
+* contextual component ([#141](https://github.com/amalv/circleback-design-system/issues/141)) ([ae50d4d](https://github.com/amalv/circleback-design-system/commit/ae50d4dbd308e981a2eadf79d8788233cc23b844))
+
 # [1.24.0](https://github.com/amalv/circleback-design-system/compare/v1.23.0...v1.24.0) (2019-12-17)
 
 
