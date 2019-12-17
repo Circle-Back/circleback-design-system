@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/amalv/circleback-design-system/compare/v1.23.0...v1.24.0) (2019-12-17)
+
+
+### Features
+
+* add background color prop to footer component ([#136](https://github.com/amalv/circleback-design-system/issues/136)) ([3061f99](https://github.com/amalv/circleback-design-system/commit/3061f9910255e64e5d453fc3c20d7e8d714b9d51))
+
 # [1.23.0](https://github.com/amalv/circleback-design-system/compare/v1.22.0...v1.23.0) (2019-12-16)
 
 
