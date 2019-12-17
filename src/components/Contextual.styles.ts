@@ -6,19 +6,11 @@ export interface BackgroundImageProps {
   image: string;
 }
 
-interface ContextualButtonProps {
-  textcolor?: string | undefined;
-  backgroundcolor?: string | undefined;
-}
-
 export const ContextualContainer = styled.div`
   position: relative;
 `;
 
-export const ContextualButton = styled(Button)<ContextualButtonProps>`
-  height: 36px;
-  background-color: ${({ backgroundcolor }): string => backgroundcolor || "white"};
-  color: ${({ textcolor }): string => textcolor || "white"};
+export const ContextualButton = styled(Button)`
   top: 140%;
   left: 50%;
   margin-right: -50%;
