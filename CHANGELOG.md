@@ -1,3 +1,10 @@
+## [1.24.2](https://github.com/amalv/circleback-design-system/compare/v1.24.1...v1.24.2) (2019-12-17)
+
+
+### Bug Fixes
+
+* Use theme hook inside post component ([#142](https://github.com/amalv/circleback-design-system/issues/142)) ([eb331f5](https://github.com/amalv/circleback-design-system/commit/eb331f5965fcc35bc9d14e922c712ddd767b872f))
+
 ## [1.24.1](https://github.com/amalv/circleback-design-system/compare/v1.24.0...v1.24.1) (2019-12-17)
 
 
