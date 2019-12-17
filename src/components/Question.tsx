@@ -1,15 +1,15 @@
 import * as React from "react";
-import { ThemeProvider, StylesProvider } from "@material-ui/core/styles";
+import { StylesProvider, useTheme } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import theme from "../MuiTheme";
 import { Input } from "./Input";
 import { Button } from "./Button";
 import { BasePaper, Title } from "./Question.styles";
 
-export const Question: React.FC = () => (
-  <StylesProvider injectFirst>
-    <ThemeProvider theme={theme}>
+export const Question: React.FC = () => {
+  const theme = useTheme();
+  return (
+    <StylesProvider injectFirst>
       <BasePaper>
         <Grid container direction="column">
           <Grid item>
@@ -23,7 +23,7 @@ export const Question: React.FC = () => (
                 <Input
                   label="title"
                   placeholder="Title here..."
-                  borderColor="#6200ee"
+                  borderColor={theme.palette.primary.main}
                   fullWidth
                 />
               </Grid>
@@ -37,7 +37,7 @@ export const Question: React.FC = () => (
                   rows="8"
                   label="content"
                   placeholder="Content here..."
-                  borderColor="#6200ee"
+                  borderColor={theme.palette.primary.main}
                   fullWidth
                 />
               </Grid>
@@ -54,6 +54,6 @@ export const Question: React.FC = () => (
           </Grid>
         </Grid>
       </BasePaper>
-    </ThemeProvider>
-  </StylesProvider>
-);
+    </StylesProvider>
+  );
+};
