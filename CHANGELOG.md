@@ -1,3 +1,10 @@
+## [1.24.4](https://github.com/amalv/circleback-design-system/compare/v1.24.3...v1.24.4) (2019-12-17)
+
+
+### Bug Fixes
+
+* update theming using use theme hook ([#144](https://github.com/amalv/circleback-design-system/issues/144)) ([5925d01](https://github.com/amalv/circleback-design-system/commit/5925d010f83d93f07e9a91f40006965d25a5f97b))
+
 ## [1.24.3](https://github.com/amalv/circleback-design-system/compare/v1.24.2...v1.24.3) (2019-12-17)
 
 

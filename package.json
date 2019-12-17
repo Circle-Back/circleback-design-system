@@ -1,7 +1,7 @@
 {
   "name": "circleback-design-system",
   "description": "Circleback design system",
-  "version": "1.24.3",
+  "version": "1.24.4",
   "license": "MIT",
   "files": [
     "dist"
