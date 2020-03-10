@@ -1,17 +1,19 @@
-name: Deploy preview URL 
+name: Deploy preview URL
 
-on: 
+on:
   push:
     branches-ignore:
-     - master
+      - master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: amondnet/now-deployment@v1
+      - uses: actions/checkout@v2
+      - uses: amondnet/now-deployment@v2
         id: deployment_metadata
         with:
           github-token: ${{ secrets.GH_TOKEN}}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
+          now-org-id: ${{ secrets.NOW_ORG_ID}} #Required
+          now-project-id: ${{ secrets.NOW_PROJECT_ID}} #Required
