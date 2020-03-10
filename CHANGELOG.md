@@ -1,3 +1,10 @@
+## [1.24.5](https://github.com/amalv/circleback-design-system/compare/v1.24.4...v1.24.5) (2020-03-10)
+
+
+### Bug Fixes
+
+* **Github Actions:** Fix breaking changes with 17.x now cli update ([#298](https://github.com/amalv/circleback-design-system/issues/298)) ([5649517](https://github.com/amalv/circleback-design-system/commit/5649517207cae3093f9164e85de42e18ad03faa0))
+
 ## [1.24.4](https://github.com/amalv/circleback-design-system/compare/v1.24.3...v1.24.4) (2019-12-17)
 
 
